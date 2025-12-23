@@ -59,8 +59,12 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test"
+    "test": "craco test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME",
+  "// NOTE": "Update 'homepage' above with your GitHub username and repository name before deploying to GitHub Pages",
   "browserslist": {
     "production": [
       ">0.2%",
