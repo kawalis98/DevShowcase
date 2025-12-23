@@ -83,14 +83,15 @@ A modern, responsive portfolio website built with React and Tailwind CSS. This t
    npm install --save-dev gh-pages
    ```
 
-2. Add the following to your `package.json`:
+2. The deployment scripts are already added to `package.json`. Update the homepage field with your GitHub username and repository name:
    ```json
    {
-     "homepage": "https://kawalis98.github.io/DevShowcase",
+     "homepage": "https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME",
      "scripts": {
        "predeploy": "npm run build",
        "deploy": "gh-pages -d build"
-     }
+     },
+     "// NOTE": "Update 'homepage' above with your GitHub username and repository name before deploying to GitHub Pages"
    }
    ```
 
