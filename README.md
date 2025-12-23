@@ -119,6 +119,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 If you encounter any issues or have questions, please file an issue on the GitHub repository.
 
----
+## Showcase
 
-Built with ❤️ using React and Tailwind CSS"# DevShowcase" 
+![DevShowcase Portfolio](public/images/image.png)
+
+Built with ❤️ using React and Tailwind CSS
