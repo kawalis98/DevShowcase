@@ -34,7 +34,7 @@ A modern, responsive portfolio website built with React and Tailwind CSS. This t
 
 2. Navigate to the project directory:
    ```bash
-   cd your-repo-name
+   cd DevShowcase
    ```
 
 3. Install dependencies:
